@@ -1,0 +1,180 @@
+.header{
+    background-color: brown;
+    height: 100px;
+    width: 100%;
+    overflow: auto;
+}
+
+.header img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 3px solid rgb(59, 1, 1);
+    margin-left: 25px;
+    margin-top: 5px;
+    float: left;
+}
+
+.list{
+    float: right;
+}
+
+.list li{
+    list-style-type: none;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    margin-right: 30px;
+}
+
+.list ul{
+    margin-top: 35px;
+    margin-right: 170px;
+
+}
+
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+
+}
+.container img{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    margin: 0;
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    color:azure;
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+.container button{
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    background-color: white;
+    position: absolute;
+    margin-left:-50 ;
+    
+}
+button:hover{
+    background-color: brown;
+    color: aliceblue;
+    cursor:pointer ;
+    text-align: center;
+}
+.mm h1{
+    color: brown;
+    text-align: center;
+}
+.c1{
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.c2{
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.c3{
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.c{
+    float: left;
+    margin-left: 150px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 2px solid;
+    border-color: brown;
+
+
+}
+.c h3{
+    text-align: center;
+    padding-top: 50px;
+    color: brown;
+}
+.icon {
+    font-size: 40PX;
+    color: brown;
+    text-align: center;
+}
+
+.C::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(254, 254, 224, 0.4);
+    opacity: 0s;
+    transition: 1s;
+
+}
+.c:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    
+}
+.A h1{
+    color: brown;
+    text-align: center;
+}
+.c p{
+    color: brown;
+}
+.c button{
+    color: rgb(251, 126, 126);
+}
+.r{
+    float: left;
+    margin-left: 150px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    border-color: brown;
+    background-color: brown;
+
+}
+.r h2{
+    text-align: center;
+    padding-top: 50px;
+    color: brown;
+}
+.r p{
+    color: brown;
+    text-align: center;
+}
+.b a{
+    display: block;
+    font-size: 30px;
+    color: bisque;
+}
